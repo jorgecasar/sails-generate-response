@@ -33,7 +33,7 @@ module.exports = {
   before: function (scope, cb) {
 
     if (!scope.args[0]) {
-      return cb( new Error('Please provide the name for this response using the status code, camel cased description. e.g: 201 or created; 204 or noContent') );
+      return cb( new Error('Please provide the response using the status code or camel cased description. e.g: sails generate response 204 or sails generate response noContent') );
     }
     
     // The first command-line argument will be the response to generate
@@ -41,7 +41,7 @@ module.exports = {
 
     if( !scope.response )
     {
-      return cb( new Error('Please provide one of the allowed response codes: 201, 204, 304, 401, 409') );
+      return cb( new Error('Please provide one of the allowed responses: ' + Object.keys(responses.data).join(', ') ) );
     }
 
     // scope.rootPath is the base path for this generator
