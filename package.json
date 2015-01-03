@@ -1,0 +1,32 @@
+{
+  "name": "sails-generate-response",
+  "version": "0.10.0",
+  "description": "sails generate response",
+  "main": "Generator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "response",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "balderdashy",
+  "license": "MIT",
+  "dependencies": {
+  	"lodash": ">=2.4.x",
+  	"merge-defaults": ">=0.1.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "response",
+    "behavior": "overrides `sails generate response`",
+    "sailsVersion": "~0.10.0"
+  }
+}
