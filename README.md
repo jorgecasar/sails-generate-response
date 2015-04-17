@@ -1,3 +1,8 @@
+[![Package Quality](http://npm.packagequality.com/badge/sails-generate-response.png)](http://packagequality.com/#?package=sails-generate-response)
+[![Build Status](https://secure.travis-ci.org/jorgecasar/sails-generate-response.svg?branch=master)](http://travis-ci.org/jorgecasar/sails-generate-response)
+[![Dependency Status](https://david-dm.org/jorgecasar/sails-generate-response.svg?theme=shields.io)](https://david-dm.org/jorgecasar/sails-generate-response)
+[![devDependency Status](https://david-dm.org/jorgecasar/sails-generate-response/dev-status.svg?theme=shields.io)](https://david-dm.org/jorgecasar/sails-generate-response#info=devDependencies)
+
 # sails-generate-response
 
 A `response` generator for use with the Sails command-line interface.
